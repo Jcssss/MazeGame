@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&family=Ubuntu&display=swap');
+
+:root {
+    font-family: 'Ubuntu';
+}
+#myCanvas {
+    border: 1px solid #d3d3d3;
+    background-color: #000000;
+	display: inline;
+}
+#container {
+	width: 100%;
+	text-align: center;
+}
+#settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+#input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#title {
+    margin-bottom: 0;
+}
+#remake {
+    margin-bottom: 10px;
+}
+#size {
+    display: block;
+    width: 30px;
+    margin: 10px;
+}
